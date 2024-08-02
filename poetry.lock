@@ -534,6 +534,17 @@ files = [
 python-dateutil = ">=2.7"
 
 [[package]]
+name = "git-filter-repo"
+version = "2.45.0"
+description = "Quickly rewrite git repository history"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "git_filter_repo-2.45.0-py3-none-any.whl", hash = "sha256:63cd3208b92309e473e3d69e90195b445751d34be16880f6ffd5998c846bdefd"},
+    {file = "git_filter_repo-2.45.0.tar.gz", hash = "sha256:2fa80ff8da54382a6e189bc1522dc986ee7a52abcbe9e28192f73c0f6c8b5ea9"},
+]
+
+[[package]]
 name = "greenlet"
 version = "3.0.3"
 description = "Lightweight in-process concurrent programming"
@@ -2084,4 +2095,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.*"
-content-hash = "b266d6187db615a12fdee1e2edd4978e6db8a19c709d70346ded7b0def5d89f8"
+content-hash = "8d9e86518e8371449720b7a91f1576b0be3cf1f384a34c1405475b1c87682d21"
